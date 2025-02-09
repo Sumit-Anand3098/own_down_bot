@@ -44,7 +44,11 @@ sudo apt update -y && sudo apt upgrade -y
 sudo ufw allow mysql && sudo ufw allow OpenSSH && sudo ufw allow ssh && sudo ufw allow 80 && sudo ufw 443 && sudo ufw allow 443 && sudo ufw 8080
 bash <(curl -s https://pterodactyl-installer.se/)
 ```
-
+```
+git command
+update local by repo -- git pull origin main
+//after entring into git file
+```
 
 clear vb - vboxmanage.exe modifyhd "C:\Users\sumit\OneDrive\Desktop\vps\vps\vps.vdi" --compact
 ```
