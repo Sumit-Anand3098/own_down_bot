@@ -15,8 +15,13 @@ sudo apt update && sudo apt upgrade
 git clone https://github.com/Sumit-Anand3098/own_down_bot
 cd own_down_bot
 pip3 install -r requirements.txt
-// for video conversion on linux sudo apt install ffmpeg
-python3 main.py
+next required for video conversion on linux
+Commands 
+sudo apt update
+sudo apt install ffmpeg
+ffmpeg -version
+
+run the server --  python3 main.py
 Note:- use (nohup python3 main.py) to run 24×7
 ```
 ### AVAILABLE COMMANDS 
