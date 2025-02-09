@@ -13,7 +13,7 @@ before Deploying Change your Credentials in Vars.py
 ```
 sudo apt update && sudo apt upgrade
 git clone https://github.com/Sumit-Anand3098/own_down_bot
-cd cpdown
+cd own_down_bot
 pip3 install -r requirements.txt
 // for video conversion on linux sudo apt install ffmpeg
 python3 main.py
