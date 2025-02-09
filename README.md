@@ -21,6 +21,33 @@ Note:- use (nohup python3 main.py) to run 24×7
 ```
 ### AVAILABLE COMMANDS 
 ```
+command for Linux server
+
+ifconfig 
+
+SSh
+sudo apt install openssh-client
+sudo apt install openssh-server
+sudo systemctl restart sshd.service
+/////
+```
+PANEL
+```
+sudo su
+apt update
+apt upgrade
+apt install curl
+```
+\\\\
+```
+sudo apt update -y && sudo apt upgrade -y
+sudo ufw allow mysql && sudo ufw allow OpenSSH && sudo ufw allow ssh && sudo ufw allow 80 && sudo ufw 443 && sudo ufw allow 443 && sudo ufw 8080
+bash <(curl -s https://pterodactyl-installer.se/)
+```
+
+
+clear vb - vboxmanage.exe modifyhd "C:\Users\sumit\OneDrive\Desktop\vps\vps\vps.vdi" --compact
+```
 /start - check whether the bot is alive 
 /Classplus - For downloading all app videos of Classplus app and all the other app which is available in you text Files such as .m3u8.
 ``` 
