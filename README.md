@@ -1,4 +1,4 @@
-# Rishav'S Classplus Videos Downloader via Text File
+# Sumit'S Classplus Videos Downloader via Text File
 
 ## How to Deploy? 🤔. you can deploy on your VPS.
 1. First Click on Star
@@ -12,7 +12,7 @@ before Deploying Change your Credentials in Vars.py
 
 ```
 sudo apt update && sudo apt upgrade
-git clone https://github.com/Sumit-Anand3098/cpdown
+git clone https://github.com/Sumit-Anand3098/own_down_bot
 cd cpdown
 pip3 install -r requirements.txt
 // for video conversion on linux sudo apt install ffmpeg
