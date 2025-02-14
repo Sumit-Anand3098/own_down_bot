@@ -55,6 +55,24 @@ update local by repo -- git pull origin main
 //after entring into git file
 ```
 
+## Deploy to google cloud
+before Deploying Change your Credentials in Vars.py
+
+```
+sudo apt update && sudo apt upgrade
+git clone https://github.com/Sumit-Anand3098/own_down_bot
+cd own_down_bot
+pip3 install -r requirements.txt
+next required for video conversion on linux
+Commands after every restart 
+sudo apt-get update
+sudo apt install ffmpeg
+ffmpeg -version
+
+run the server --  python3 main.py
+Note:- use (nohup python3 main.py) to run 24×7
+
+
 clear vb - vboxmanage.exe modifyhd "C:\Users\sumit\OneDrive\Desktop\vps\vps\vps.vdi" --compact
 ```
 /start - check whether the bot is alive 
