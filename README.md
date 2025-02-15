@@ -53,6 +53,8 @@ bash <(curl -s https://pterodactyl-installer.se/)
 git command
 update local by repo -- git pull origin main
 //after entring into git file
+rm -rf cp-new
+to remove file forcefully 
 ```
 
 ## Deploy to google cloud
